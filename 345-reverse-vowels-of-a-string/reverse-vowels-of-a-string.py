@@ -2,6 +2,7 @@
 The problem asks us to return ONLY ALL the vowels of an input string, leaving the non vowels how they were and returning a newly modified string
 Approach: I scan once to collect vowels, reverse them, then scan again to put them back
 """
+# Could think about time complexity more for next attempt at this question
 class Solution:
     def reverseVowels(self, s: str) -> str:
         vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
